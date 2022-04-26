@@ -13,6 +13,6 @@ public class Solution {
         while(scan.hasNext()){
        i++;
        System.out.println(i + " " + scan.nextLine());
-   }
-    }
+   		}
+	}
 }
