@@ -9,11 +9,13 @@ public class ArraySort {
 		String[] myarray2 = {
 			"java","python","php","C#","C programming","C++"
 		};
-		
+
+		//Numeric array
 		System.out.println("Original numeric array: " + Arrays.toString(myarray1));
 		Arrays.sort(myarray1);
 		System.out.println("Sorted numeric array: " + Arrays.toString(myarray1));
 
+		//String array
 		System.out.println("Original String array: " + Arrays.toString(myarray2));
 		Arrays.sort(myarray2);
 		System.out.println("Sorted String array: " + Arrays.toString(myarray2));
